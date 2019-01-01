@@ -1,5 +1,5 @@
 
-# input  is a List of numbers
+# input  is a List of unsorted numbers
 # output is a List of sorted numbers
 
 def bubble_sort(array):
