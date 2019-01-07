@@ -1,4 +1,4 @@
-Sorting methods contains few kinds of sorting:
+Folder "Sorting methods" contains few kinds of sorting function:
 - bubble sort - robust algorithm, algorithm complexity - O(n^2);
 - cocktail sort - robust algorithm, algorithm complexity - O(n^2);
 - gnome sort - robust algorithm, algorithm complexity - O(n^2);
