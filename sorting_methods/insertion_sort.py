@@ -11,7 +11,7 @@ def insertion_sort(array):
 		if array[i+1] < array[i]:
 			for j in range(-len(array)+i, -len(array)-1, -1):
 				# have to take part of previously watched array and have to compare pairs of number until the
-				# corresponding position is found. if number on higher position lower then number on lower
+				# corresponding position is found. if number on higher position lowest then number on lower
 				# position have to swap two compared number.
 				if array[j+1] < array[j]:
 					tmp = array[j+1]
