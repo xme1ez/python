@@ -23,6 +23,6 @@ def cocktail_sort(array):
 				tmp = array[j]
 				array[j] = array[j+1]
 				array[j+1] = tmp
-		h += 1  # move beginning of array for consideration to position -1
+		h += 1  # move beginning of array for consideration to position +1
 
 	return array
