@@ -1,5 +1,5 @@
 - celsius_fahrenheit_converter.py contains function which will convert temperature from celsius to fahrenheit and back;
 - counting_the_number_of_digits_of_the_number.py contains function which will count number digits of entered number;
 - leap_year_or_not.py contains function wich will define if entered year is leap;
-- mass_volume_density_calculations.py contains function which will perform calculations: mass, volume, density by two parameters.
+- mass_volume_density_calculations.py contains function which will perform calculations: mass, volume, density by two parameters;
 - sum_of_three_digit_number.py contains function which will calculate sum three digit of entered number.
