@@ -22,6 +22,3 @@ def number_of_digits_of_the_number2(number):
 		number //= 10
 
 	return i
-
-
-print(number_of_digits_of_the_number2(9990))
