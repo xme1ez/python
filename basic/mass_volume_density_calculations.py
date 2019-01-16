@@ -2,7 +2,7 @@
 # function will count mass, volume or density
 # for each choice have to input 2 parameters
 # flag (m - mass, v - volume or d - density shows which parameters you
-# would like to count
+# would like to calculate
 
 
 def mass_volume_density_calculation():
