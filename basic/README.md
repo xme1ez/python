@@ -2,4 +2,9 @@
 - counting_the_number_of_digits_of_the_number.py contains function which will count number digits of entered number;
 - leap_year_or_not.py contains function wich will define if entered year is leap;
 - mass_volume_density_calculations.py contains function which will perform calculations: mass, volume, density by two parameters;
-- sum_of_three_digit_number.py contains function which will calculate sum three digit of entered number.
+- sum_of_three_digit_number.py contains function which will calculate sum three digit of entered number;
+- binary_search.py contains function which will define position (index) of number in a list by binary search algorithm;
+- check_on_the_simplicity_of_the_number.py contains function for define if the number is a simple or not;
+- converting_decimal_to_another_number_system.py contains function which can be used for converting number in decimal system to      another system from 2 to 9;
+- GCF.py contains function for calculation of the greatest common factor (GFC) of two (int) numbers. Calculation will perform by the Euclidean algorithm;
+- search_parameters_for_quadratic_equation.py contains function will define which combination of a, b, c parameters for quadratic equation (ax^2+bx+c=0) have solution.
