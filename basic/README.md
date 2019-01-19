@@ -7,4 +7,6 @@
 - check_on_the_simplicity_of_the_number.py contains function for define if the number is a simple or not;
 - converting_decimal_to_another_number_system.py contains function which can be used for converting number in decimal system to      another system from 2 to 9;
 - GCF.py contains function for calculation of the greatest common factor (GFC) of two (int) numbers. Calculation will perform by the Euclidean algorithm;
-- search_parameters_for_quadratic_equation.py contains function will define which combination of a, b, c parameters for quadratic equation (ax^2+bx+c=0) have solution.
+- search_parameters_for_quadratic_equation.py contains function will define which combination of a, b, c parameters for quadratic equation (ax^2+bx+c=0) have solution;
+- maximum_digit_in_real_number.py contains function which will define the maximum digit at real number;
+- is_string_palindrome_or_not.py contains function which will define is string palindrome or not.
