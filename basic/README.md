@@ -9,4 +9,8 @@
 - GCF.py contains function for calculation of the greatest common factor (GFC) of two (int) numbers. Calculation will perform by the Euclidean algorithm;
 - search_parameters_for_quadratic_equation.py contains function will define which combination of a, b, c parameters for quadratic equation (ax^2+bx+c=0) have solution;
 - maximum_digit_in_real_number.py contains function which will define the maximum digit at real number;
-- is_string_palindrome_or_not.py contains function which will define is string palindrome or not.
+- is_string_palindrome_or_not.py contains function which will define is string palindrome or not;
+- text_converting_to_list_of_words.py - Function will clear text from string separators and return list of words;
+- replacing_of_list_elements.py - Function will replace positive and negative numbers to expected value;
+- separation_of_list_into_positive_negative.py - function will define which number at input list is positive and which is negative. Numbers fit to separate lists;
+- count_of_even_odd_number_in_list.py - function define count of odd and even numbers at input list.
