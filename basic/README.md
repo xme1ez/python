@@ -14,4 +14,4 @@
 - replacing_of_list_elements.py - Function will replace positive and negative numbers to expected value;
 - separation_of_list_into_positive_negative.py - function will define which number at input list is positive and which is negative. Numbers fit to separate lists;
 - count_of_even_odd_number_in_list.py - function define count of odd and even numbers at input list.
-- task_json_dump_file.py - work with *.json dump file
+- task_json_dump_file.py - work with *.json dump file. If user favorite number already saved - program show it, if not - will ask user to enter it.
