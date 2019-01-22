@@ -9,6 +9,7 @@ import json
 file_name = "dump_file.json"
 
 
+# this function will try to load content from dum_file
 def get_favourite_number():
 
 	try:
@@ -22,6 +23,7 @@ def get_favourite_number():
 		return content
 
 
+# this function will ask user to enter hos favorite number
 def write_favourite_number():
 
 	while True:
@@ -39,6 +41,8 @@ def write_favourite_number():
 		print("File not Found")
 
 
+# this function will check if number already in file. if not - 
+# will ask to enter it.
 def favourite_number():
 
 	print("Hello, Dear!")
