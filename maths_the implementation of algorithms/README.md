@@ -1,1 +1,1 @@
-
+"genetic algorithm - search for function extremum" - contains a project that implementated basic genetic algorithm aimed to determine max extremum of function with 2 parameters (in two-dimensional space).
