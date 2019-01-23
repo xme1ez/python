@@ -1,7 +1,7 @@
 Full logic of GA implemented at "search_for_function_extremum.py" file. 
 Fitness function contains a function with two parameters: F(x1, x2) = 100 / (100*(x1^2 - x2) + (x1-x1)^2 +1), that describes the extremum search space. There are ability to change function to any maths function with two parameters at method "fitness_function(value_x, value_y)".
-Implemented two case of crosbreeding at random place of each chromosomes bit array: 
-  -with 1 break:
+Implemented two case of crosbreeding at random place of each chromosomes bit array:
+- with 1 break:
     -chromosome1 = 1111111111
     -chromosome2 = 0000000000
       -progeny1 = 1111100000
@@ -11,6 +11,7 @@ Implemented two case of crosbreeding at random place of each chromosomes bit arr
     -chromosome2 = 0000000000
       -progeny1 = 1100001111
       -progeny2 = 0011110000
+      
 Selection of chromosome for crossbreeding implemented in two ways:
  - panmixia - both of chromosomes at pair for crossbreedidng chosen randomly from current population;
  - selective - chromosome is able to become a part of pair for crossbreeding only if it has fitness >= to average fitness of current population.
