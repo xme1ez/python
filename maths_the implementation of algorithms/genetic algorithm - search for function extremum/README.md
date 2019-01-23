@@ -20,7 +20,7 @@ Calculations performs by set count of generations.
 The result of final generation will shows and will contains all chromosomes at final population with their calculated fitness function.
 
 There is ability to set next parameters:
-- count of generetions;
+- count of generations;
 - size of population;
 - probability of mutation;
 - probability of crossbreeding;
