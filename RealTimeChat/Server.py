@@ -88,3 +88,5 @@ class Server(object):
 				del self.dict_of_clients[key]
 				break
 		conn_info.close()
+
+Server.Server(10001).listen()
