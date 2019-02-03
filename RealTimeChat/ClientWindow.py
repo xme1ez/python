@@ -47,7 +47,7 @@ class ClientWindow:
 		self.fourthStageFrame.grid(row=7, column=1, sticky='news')
 
 		self.client_name_label = tkinter.Label(self.zeroStageFrame,
-											   text="Your nickname:")
+							   text="Your nickname:")
 		self.client_name_label.grid(row=0, column=0, sticky='news')
 		self.client_name_entry = tkinter.Entry(self.zeroStageFrame, width=15)
 		self.client_name_entry.grid(row=0, column=1, sticky='news')
@@ -64,31 +64,31 @@ class ClientWindow:
 		self.portField.grid(row=0, column=4, sticky='news')
 		self.portField.insert(0, '10001')
 		self.connectBtn = tkinter.Button(self.firstStageFrame, text="connect",
-										 command=self.setup_connection)
+						 command=self.setup_connection)
 		self.connectBtn.grid(row=0, column=5, sticky='news')
 
 		self.yScroll = tkinter.Scrollbar(self.secondStageFrame, orient=tkinter.VERTICAL)
 		self.yScroll.grid(row=0, column=7, sticky=tkinter.N+tkinter.S)
 		self.messageField = tkinter.Text(self.secondStageFrame, state='disabled',
-									yscrollcommand=self.yScroll.set, width=36)
+							yscrollcommand=self.yScroll.set, width=36)
 		self.messageField.grid(row=0, column=0, sticky='news')
 		self.yScroll['command'] = self.messageField.yview()
 
 		self.entryField = tkinter.Entry(self.thirdStageFrame, width=30)
 		self.entryField.grid(row=0, column=0, sticky='news')
 		self.sendBtn = tkinter.Button(self.thirdStageFrame, text='Send',
-									  command=self.send_message)
+						  command=self.send_message)
 		self.sendBtn.grid(row=0, column=6, sticky='news')
 
 		self.statusLabel = tkinter.Label(self.fourthStageFrame,
-									text=self.process_status_str())
+						text=self.process_status_str())
 		self.statusLabel.grid(row=0, column=0, sticky='news')
 		self.client = ClientCnct.Client(self.get_ip(), int(self.get_port()))
 		self.chatWindow.mainloop()
 
 	def process_status_str(self):
 		return "status = {} | connected clients: {}".format(self.connection_status,
-															str(self.count_of_connected_clients))
+									str(self.count_of_connected_clients))
 
 	def setup_connection(self):
 		self.client = ClientCnct.Client(self.get_ip(), int(self.get_port()))
