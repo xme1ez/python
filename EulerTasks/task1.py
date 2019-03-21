@@ -12,6 +12,3 @@ def determining(max, dividers):
 				break
 
 	return sum
-
-
-print(determining(1000, [3, 5]))
